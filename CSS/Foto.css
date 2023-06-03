@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.flex-container>div {
+    height: 1000px;
+    width: 100%;
+    border: 5px solid #fff;
+}
+
+.flex-container > .tropical{
+    background: url("https://images.pexels.com/photos/1730765/pexels-photo-1730765.jpeg?cs=srgb&dl=pexels-mamunurpics-1730765.jpg&fm=jpg");
+}
+
+.flex-container > .cold{
+    background: url("https://oleaeuropea.files.wordpress.com/2011/01/1252213_24294801.jpg");
+}
+
+.flex-container > .pnw{
+    background: url("https://mrtreeservices.com/wp-content/uploads/2018/08/5-Unexpected-Pacific-Northwest-Tree-Facts.jpg");
+}
+
+.flex-container > .desert{
+    background: url("https://techcrunch.com/wp-content/uploads/2020/11/GettyImages-547544513.jpg");
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-container{
+        flex-wrap: wrap;
+    }
+}
+
+.nav{
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
